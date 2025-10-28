@@ -5,23 +5,23 @@
       {% if page.permalink != '/' %}
       
 
-<a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/" style="display: flex; align-items: center; gap: 10px;">
-    <img src="{{ '/assets/img/logo1.png' | relative_url }}" alt="NeuraCaribe Logo" style="height: 40px;">
-    {% if site.title == "blank" %}
-        {% if site.first_name %}
-            <span class="font-weight-bold">
-                {{- site.first_name -}}
-            </span>
-        {% endif %}
-        {% if site.middle_name %}
-            {{- site.middle_name -}}
-        {% endif %}
-        {% if site.last_name %}
-            {{- site.last_name -}}
-        {% endif %}
-    {% else %}
-        <span>{{- site.title -}}</span>
+<a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+  <img src="{{ '/assets/img/logo1.png' | relative_url }}" alt="NeuraCaribe Logo" class="navbar-logo">
+  {% if site.title == "blank" %}
+    {% if site.first_name %}
+      <span class="font-weight-bold">
+        {{- site.first_name -}}
+      </span>
     {% endif %}
+    {% if site.middle_name %}
+      {{- site.middle_name -}}
+    {% endif %}
+    {% if site.last_name %}
+      {{- site.last_name -}}
+    {% endif %}
+  {% else %}
+    <span>{{- site.title -}}</span>
+  {% endif %}
 </a>
 
 
