@@ -2,6 +2,9 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      <a class="navbar-brand" href="{{ site.baseurl }}/">
+        <img src="{{ '/assets/img/logo1.png' | relative_url }}" alt="NeuraCaribe Logo" class="navbar-logo">
+      </a>
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
@@ -68,7 +71,7 @@
                   {% endif %}
                 {% endfor %}
                 <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
-                  <a
+                  
                     class="nav-link dropdown-toggle"
                     href="#"
                     id="navbarDropdown"
@@ -87,7 +90,7 @@
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
-                        <a
+                        
                           class="dropdown-item {% if page.title == child.title %}active{% endif %}"
                           href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
                         >
