@@ -20,4 +20,4 @@ En la próxima entrada del blog haré un análisis completo y accesible de este 
 - Ejemplos visuales de cómo funciona el método
 - Implementación práctica del algoritmo
 
-¡Mantente atento! 🚀
+ 
