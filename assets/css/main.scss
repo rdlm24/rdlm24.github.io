@@ -24,26 +24,4 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* Tamaño y comportamiento del logo */
-.brand-logo {
-  height: 28px;      /* 24–32px va bien */
-  width: auto;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* Que el brand NO empuje el menú */
-.navbar .navbar-brand {
-  flex: 0 0 auto;
-  white-space: nowrap;
-  margin-right: .75rem; /* espacio mínimo con el menú */
-}
-
-/* Mantener el menú en una sola línea y a la derecha */
-.navbar .navbar-nav {
-  margin-left: auto;
-  flex-wrap: nowrap;
-}
-
-/* Evitar que "ctrl k" se parta en dos líneas */
-#search-toggle .nav-link { white-space: nowrap; }
+ 
