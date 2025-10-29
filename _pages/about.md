@@ -28,16 +28,16 @@ Bienvenido a **NeuraCaribe**, un espacio dedicado a la divulgación científica 
 Soy Roberto, estudiante de doctorado en la Universidad Autónoma de Santo Domingo (UASD). Este blog nace como parte de mi formación doctoral en Comunicación Científica, con el objetivo de construir un puente entre la investigación académica en IA y el público general interesado en comprender estas tecnologías.
 
 La inteligencia artificial está transformando nuestra sociedad a un ritmo acelerado. Modelos de lenguaje, sistemas de visión computacional, algoritmos de aprendizaje profundo... tecnologías que antes eran ciencia ficción ahora forman parte de nuestra vida cotidiana. Sin embargo, existe una brecha significativa entre quienes desarrollan estas tecnologías y quienes las utilizan. Este blog busca cerrar esa brecha.
-
+ 
 **¿Qué encontrarás aquí?**
 
-- **Análisis de investigación reciente**: Desgloso papers científicos de alto impacto, explicando sus contribuciones, metodologías y limitaciones de forma accesible sin sacrificar rigor.
+- <i class="fas fa-file-alt"></i> **Análisis de investigación reciente**: Desgloso papers científicos de alto impacto, explicando sus contribuciones, metodologías y limitaciones de forma accesible sin sacrificar rigor.
 
-- **Implementaciones prácticas**: Código funcional y reproducible que permite experimentar con los conceptos discutidos. Cada proyecto incluye documentación detallada y explicaciones paso a paso.
+- <i class="fas fa-code"></i> **Implementaciones prácticas**: Código funcional y reproducible que permite experimentar con los conceptos discutidos. Cada proyecto incluye documentación detallada y explicaciones paso a paso.
 
-- **Contexto crítico**: Más allá de la tecnología, exploro las implicaciones éticas, sociales y económicas de los avances en IA, especialmente en contextos latinoamericanos.
+- <i class="fas fa-balance-scale"></i> **Contexto crítico**: Más allá de la tecnología, exploro las implicaciones éticas, sociales y económicas de los avances en IA, especialmente en contextos latinoamericanos.
 
-- **Recursos educativos**: Tutoriales, guías y materiales de referencia para quienes desean profundizar en temas específicos.
+- <i class="fas fa-book-open"></i> **Recursos educativos**: Tutoriales, guías y materiales de referencia para quienes desean profundizar en temas específicos.
 
 Mi compromiso es mantener un equilibrio entre accesibilidad y precisión técnica. No es necesario tener formación previa en ciencias de la computación o matemáticas avanzadas, pero tampoco encontrarás simplificaciones que distorsionen la ciencia.
 
