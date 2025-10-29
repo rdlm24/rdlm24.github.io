@@ -1,23 +1,32 @@
 ---
 layout: post
-title: "Analizando el paper de Oxford sobre detección de alucinaciones"
+title: "Semantic Entropy: Un enfoque probabilístico para detectar confabulaciones en LLMs"
 date: 2025-10-30 10:00:00-0400
 inline: false
 related_posts: false
 ---
 
-Estoy profundizando en uno de los papers más importantes de 2024 sobre alucinaciones en modelos de lenguaje: **"Detecting hallucinations in large language models using semantic entropy"** publicado en Nature por investigadores de la Universidad de Oxford.
+La investigación reciente de Farquhar, Kossen, Kuhn y Gal (Universidad de Oxford, 2024) representa un avance significativo en la detección de alucinaciones en modelos de lenguaje de gran escala.
 
-#### ¿Por qué este paper es relevante?
+#### Contribución principal
 
-Las alucinaciones son uno de los problemas más críticos de los LLMs actuales. Este paper propone una solución elegante: usar **entropía semántica** para medir cuánto varía el *significado* de las respuestas, no solo las palabras.
+El paper propone utilizar **entropía semántica** como métrica para cuantificar la incertidumbre epistémica del modelo. A diferencia de enfoques previos basados en entropía léxica, este método evalúa la variabilidad del *significado* entre múltiples generaciones, no solo la distribución de tokens.
 
-#### Próximos pasos
+#### Relevancia metodológica
 
-En la próxima entrada del blog haré un análisis completo y accesible de este trabajo, incluyendo:
+La técnica presenta tres ventajas fundamentales:
 
-- Explicación del concepto de entropía semántica sin ecuaciones complejas
-- Ejemplos visuales de cómo funciona el método
-- Implementación práctica del algoritmo
+1. **Invarianza semántica**: Agrupa respuestas equivalentes en significado mediante modelos de bi-direccionalidad
+2. **Detección temprana**: Identifica confabulaciones antes de la generación completa
+3. **Aplicabilidad general**: Funciona sin reentrenamiento del modelo base
 
+#### Próxima publicación
+
+Desarrollaré un análisis técnico completo incluyendo:
+
+- Formalización matemática accesible del método
+- Comparativa con técnicas de calibración alternativas  
+- Implementación reproducible con evaluación empírica
+
+Publicación prevista: Primera semana de noviembre 2025.
  
