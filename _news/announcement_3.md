@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎬 Próximamente: video explicativo sobre cómo los LLMs inventan información con tanta confianza.
+🎥 En producción: material audiovisual sobre mecanismos de confabulación en arquitecturas transformer y métodos de detección probabilística.
