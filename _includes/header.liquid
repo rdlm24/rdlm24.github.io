@@ -23,20 +23,15 @@
    href="{{ site.baseurl }}/"
    style="flex:0 0 auto;white-space:nowrap;margin-right:.75rem;"
    aria-label="Ir al inicio">
-  <picture>
-    <!-- Versión dark (opcional): si subes /assets/img/logo10.png se activará en modo oscuro -->
-    <source
-      srcset="{{ '/assets/img/logo10.png' | relative_url }} 1x, {{ '/assets/img/logo10.png' | relative_url }} 2x"
-      media="(prefers-color-scheme: dark)">
-    <!-- Fallback / modo claro -->
-    <img
-      src="{{ '/assets/img/logo10.png' | relative_url }}"
-      srcset="{{ '/assets/img/logo10.png' | relative_url }} 1x, {{ '/assets/img/logo10.png' | relative_url }} 2x"
-      alt="NeuraCaribe"
-      class="d-inline-block align-top brand-img"
-      style="height:25px;width:auto;display:inline-block;vertical-align:middle;"
-      decoding="async" fetchpriority="high">
-  </picture>
+  <img
+    id="brand-img"
+    src="{{ '/assets/img/logo10.png?v=1' | absolute_url }}"
+    srcset="{{ '/assets/img/logo10.png?v=1' | absolute_url }} 1x, {{ '/assets/img/logo10@2x.png?v=1' | absolute_url }} 2x"
+    alt="NeuraCaribe"
+    class="d-inline-block align-top"
+    style="height:22px;width:auto;display:inline-block;vertical-align:middle;"
+    decoding="async" fetchpriority="high"
+    onerror="this.onerror=null; this.src='{{ '/assets/img/logo10.png?v=1' | absolute_url }}'; this.srcset='{{ '/assets/img/logo10.png?v=1' | absolute_url }} 1x';">
 </a>
 
 
