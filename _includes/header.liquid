@@ -26,12 +26,12 @@
   <picture>
     <!-- Versión dark (opcional): si subes /assets/img/logo10.png se activará en modo oscuro -->
     <source
-      srcset="{{ '/assets/img/logo10.png' | relative_url }} 1x, {{ '/assets/img/logo10-dark@2x.png' | relative_url }} 2x"
+      srcset="{{ '/assets/img/logo10.png' | relative_url }} 1x, {{ '/assets/img/logo10.png' | relative_url }} 2x"
       media="(prefers-color-scheme: dark)">
     <!-- Fallback / modo claro -->
     <img
       src="{{ '/assets/img/logo10.png' | relative_url }}"
-      srcset="{{ '/assets/img/logo10.png' | relative_url }} 1x, {{ '/assets/img/logo10@2x.png' | relative_url }} 2x"
+      srcset="{{ '/assets/img/logo10.png' | relative_url }} 1x, {{ '/assets/img/logo10.png' | relative_url }} 2x"
       alt="NeuraCaribe"
       class="d-inline-block align-top brand-img"
       style="height:25px;width:auto;display:inline-block;vertical-align:middle;"
