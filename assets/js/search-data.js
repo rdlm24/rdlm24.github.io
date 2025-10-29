@@ -440,16 +440,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-publicado-análisis-del-método-de-detección-de-alucinaciones-en-llms-mediante-entropía-semántica-farquhar-et-al-nature-2024",
+          title: '📊 Publicado: análisis del método de detección de alucinaciones en LLMs mediante entropía...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-semantic-entropy-un-enfoque-probabilístico-para-detectar-confabulaciones-en-llms",
+          title: 'Semantic Entropy: Un enfoque probabilístico para detectar confabulaciones en LLMs',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-en-producción-material-audiovisual-sobre-mecanismos-de-confabulación-en-arquitecturas-transformer-y-métodos-de-detección-probabilística",
+          title: '🎥 En producción: material audiovisual sobre mecanismos de confabulación en arquitecturas transformer y...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
