@@ -30,15 +30,37 @@ Soy Roberto, estudiante de doctorado en la Universidad Autónoma de Santo Doming
 La inteligencia artificial está transformando nuestra sociedad a un ritmo acelerado. Modelos de lenguaje, sistemas de visión computacional, algoritmos de aprendizaje profundo... tecnologías que antes eran ciencia ficción ahora forman parte de nuestra vida cotidiana. Sin embargo, existe una brecha significativa entre quienes desarrollan estas tecnologías y quienes las utilizan. Este blog busca cerrar esa brecha.
  
 **¿Qué encontrarás aquí?**
- 
-<div style="margin-top: 1.5rem;">
-  <p><i class="fas fa-file-alt fa-2x" style="color: #0E6E6E; margin-right: 1rem; vertical-align: middle;"></i><strong>Análisis de investigación reciente</strong>: Desgloso papers científicos de alto impacto, explicando sus contribuciones, metodologías y limitaciones de forma accesible sin sacrificar rigor.</p>
 
-  <p><i class="fas fa-code fa-2x" style="color: #3BAF7A; margin-right: 1rem; vertical-align: middle;"></i><strong>Implementaciones prácticas</strong>: Código funcional y reproducible que permite experimentar con los conceptos discutidos. Cada proyecto incluye documentación detallada y explicaciones paso a paso.</p>
+<div style="margin-top: 2rem; margin-bottom: 2rem;">
+  
+  <div style="display: flex; align-items: flex-start; margin-bottom: 2rem; padding: 1rem; border-left: 3px solid #0E6E6E;">
+    <i class="fas fa-file-alt fa-2x" style="color: #0E6E6E; margin-right: 1.5rem; margin-top: 0.2rem; min-width: 32px;"></i>
+    <div>
+      <strong>Análisis de investigación reciente</strong>: Desgloso papers científicos de alto impacto, explicando sus contribuciones, metodologías y limitaciones de forma accesible sin sacrificar rigor.
+    </div>
+  </div>
 
-  <p><i class="fas fa-balance-scale fa-2x" style="color: #FF6B5A; margin-right: 1rem; vertical-align: middle;"></i><strong>Contexto crítico</strong>: Más allá de la tecnología, exploro las implicaciones éticas, sociales y económicas de los avances en IA, especialmente en contextos latinoamericanos.</p>
+  <div style="display: flex; align-items: flex-start; margin-bottom: 2rem; padding: 1rem; border-left: 3px solid #3BAF7A;">
+    <i class="fas fa-code fa-2x" style="color: #3BAF7A; margin-right: 1.5rem; margin-top: 0.2rem; min-width: 32px;"></i>
+    <div>
+      <strong>Implementaciones prácticas</strong>: Código funcional y reproducible que permite experimentar con los conceptos discutidos. Cada proyecto incluye documentación detallada y explicaciones paso a paso.
+    </div>
+  </div>
 
-  <p><i class="fas fa-book-open fa-2x" style="color: #0C2A3E; margin-right: 1rem; vertical-align: middle;"></i><strong>Recursos educativos</strong>: Tutoriales, guías y materiales de referencia para quienes desean profundizar en temas específicos.</p>
+  <div style="display: flex; align-items: flex-start; margin-bottom: 2rem; padding: 1rem; border-left: 3px solid #FF6B5A;">
+    <i class="fas fa-balance-scale fa-2x" style="color: #FF6B5A; margin-right: 1.5rem; margin-top: 0.2rem; min-width: 32px;"></i>
+    <div>
+      <strong>Contexto crítico</strong>: Más allá de la tecnología, exploro las implicaciones éticas, sociales y económicas de los avances en IA, especialmente en contextos latinoamericanos.
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: flex-start; margin-bottom: 1rem; padding: 1rem; border-left: 3px solid #0C2A3E;">
+    <i class="fas fa-book-open fa-2x" style="color: #0C2A3E; margin-right: 1.5rem; margin-top: 0.2rem; min-width: 32px;"></i>
+    <div>
+      <strong>Recursos educativos</strong>: Tutoriales, guías y materiales de referencia para quienes desean profundizar en temas específicos.
+    </div>
+  </div>
+
 </div>
 
 Mi compromiso es mantener un equilibrio entre accesibilidad y precisión técnica. No es necesario tener formación previa en ciencias de la computación o matemáticas avanzadas, pero tampoco encontrarás simplificaciones que distorsionen la ciencia.
