@@ -8,6 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Roberto De León Martínez</p>
     <p>PhD en Inteligencia Artificial</p>
     <p>Universidad Autónoma de Santo Domingo (UASD)</p>
     <p>República Dominicana</p>
@@ -25,7 +26,7 @@ latest_posts:
 
 Bienvenido a **NeuraCaribe**, un espacio dedicado a la divulgación científica en Inteligencia Artificial y Aprendizaje Automático.
 
-Soy Roberto, estudiante de doctorado en la Universidad Autónoma de Santo Domingo (UASD). Este blog nace como parte de mi formación doctoral en Comunicación Científica, con el objetivo de construir un puente entre la investigación académica en IA y el público general interesado en comprender estas tecnologías.
+Soy Roberto De León, estudiante de doctorado en la Universidad Autónoma de Santo Domingo (UASD). Este blog nace como parte de mi formación doctoral en Comunicación Científica, con el objetivo de construir un puente entre la investigación académica en IA y el público general interesado en comprender estas tecnologías.
 
 La inteligencia artificial está transformando nuestra sociedad a un ritmo acelerado. Modelos de lenguaje, sistemas de visión computacional, algoritmos de aprendizaje profundo... tecnologías que antes eran ciencia ficción ahora forman parte de nuestra vida cotidiana. Sin embargo, existe una brecha significativa entre quienes desarrollan estas tecnologías y quienes las utilizan. Este blog busca cerrar esa brecha.
  
