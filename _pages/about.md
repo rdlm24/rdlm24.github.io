@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Acerca de
+title: Inicio
 permalink: /
 subtitle: Desenredando la IA, una neurona a la vez
 profile:
