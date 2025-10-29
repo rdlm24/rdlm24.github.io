@@ -1,14 +1,28 @@
 <header>
+
+<style>
+    /* Solo afecta a este navbar */
+    #navbar .brand-logo{
+      height:28px; width:auto; display:inline-block; vertical-align:middle;
+    }
+    #navbar .navbar-brand{
+      flex:0 0 auto; white-space:nowrap; margin-right:.75rem;
+    }
+    #navbar .navbar-nav{
+      margin-left:auto; flex-wrap:nowrap;
+    }
+    /* evita que "ctrl k" se parta en dos líneas */
+    #search-toggle .nav-link{ white-space:nowrap; }
+  </style>
+
+
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
    
-<a class="navbar-brand p-0 mr-2 d-flex align-items-center" href="{{ site.baseurl }}/">
-  <img
-    src="{{ '/assets/img/logo2.png' | relative_url }}"
-    alt="Inicio"
-    class="brand-logo d-inline-block align-top">
-</a>
+ <a class="navbar-brand p-0 mr-2 d-flex align-items-center" href="{{ site.baseurl }}/">
+        <img src="{{ '/assets/img/logo2.png' | relative_url }}" alt="Inicio" class="brand-logo d-inline-block align-top">
+      </a>
 
 
 
