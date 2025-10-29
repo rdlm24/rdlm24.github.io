@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🚀 NeuraCaribe está oficialmente en línea. Primera entrada sobre alucinaciones en LLMs próximamente.
+📊 Publicado: análisis del método de detección de alucinaciones en LLMs mediante entropía semántica (Farquhar et al., Nature 2024).
