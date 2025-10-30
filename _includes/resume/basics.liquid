@@ -1,3 +1,11 @@
+<!-- Diccionario de traducción para campos de basics -->
+{% assign field_translations = "name:Nombre,label:Cargo,email:Correo Electrónico,phone:Teléfono,url:Sitio Web,summary:Resumen" | split: "," %}
+{% assign field_map = "" | split: "" %}
+{% for item in field_translations %}
+  {% assign pair = item | split: ":" %}
+  {% assign field_map = field_map | push: pair %}
+{% endfor %}
+
 <table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
   {% assign skip_basics = 'image,profiles,location' | split: ',' %}
   {% for content in data[1] %}
@@ -7,10 +15,17 @@
     %}
       {% continue %}
     {% endif %}
-
     <tr>
       <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content[0] | capitalize }}</b>
+        <!-- Traducir el nombre del campo -->
+        {% assign field_label = content[0] | capitalize %}
+        {% for pair in field_map %}
+          {% if pair[0] == content[0] %}
+            {% assign field_label = pair[1] %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        <b>{{ field_label }}</b>
       </td>
       <td class="p-1 pl-2 font-weight-light text">
         {% if content[0] == 'url' %}
