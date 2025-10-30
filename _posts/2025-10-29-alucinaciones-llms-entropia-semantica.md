@@ -5,7 +5,7 @@ date: 2025-10-29 14:00:00-0400
 description: "Análisis del método propuesto por investigadores de Oxford para detectar cuándo los modelos de lenguaje están inventando información, publicado en Nature 2024."
 tags: LLMs alucinaciones entropía-semántica machine-learning NLP
 categories: investigación
-thumbnail: assets/img/hallucination-thumbnail.png
+thumbnail: assets/img/blog/semantic-entropy.png
 author: Roberto De León Martínez
 giscus_comments: true
 related_posts: true
