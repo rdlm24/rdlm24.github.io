@@ -7,7 +7,7 @@ layout: default
       <h1 class="post-title">
         {{ page.title }}
         {% if page.cv_pdf %}
-          <a
+          
             {% if page.cv_pdf contains '://' %}
               href="{{ page.cv_pdf }}"
             {% else %}
@@ -53,12 +53,20 @@ layout: default
     </article>
   </div>
 {% else %}
+  <!-- Diccionario de traducción español -->
+  {% assign translations = "basics:Información Básica,work:Experiencia Laboral,education:Educación,volunteer:Voluntariado,projects:Proyectos,awards:Premios y Reconocimientos,skills:Habilidades,publications:Publicaciones,languages:Idiomas,interests:Intereses,certificates:Certificaciones,references:Referencias" | split: "," %}
+  {% assign translation_map = "" | split: "" %}
+  {% for item in translations %}
+    {% assign pair = item | split: ":" %}
+    {% assign translation_map = translation_map | push: pair %}
+  {% endfor %}
+
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
         {{ page.title }}
         {% if page.cv_pdf %}
-          <a
+          
             {% if page.cv_pdf contains '://' %}
               href="{{ page.cv_pdf }}"
             {% else %}
@@ -88,7 +96,15 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <!-- Traducir el título de la sección -->
+            {% assign section_title = data[0] | capitalize %}
+            {% for pair in translation_map %}
+              {% if pair[0] == data[0] %}
+                {% assign section_title = pair[1] %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+            <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
