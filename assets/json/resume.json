@@ -143,71 +143,71 @@
   "certificates": [
     {
       "name": "Diplomado Internacional en Inteligencia Artificial Aplicada a la Investigación",
-      "date": "2025-01-01",
+      "date": "2025",
       "issuer": "Universidad Autónoma de Santo Domingo (UASD)",
       "url": "",
       "summary": "295 horas de formación en IA aplicada"
     },
     {
       "name": "Diplomado Internacional de Formación Integral para Investigadores",
-      "date": "2024-01-01",
+      "date": "2024",
       "issuer": "Universidad Católica Tecnológica de Barahona (UCATEBA)",
       "url": "",
       "summary": "110 horas académicas"
     },
     {
       "name": "Asesoría de Tesis de Postgrado",
-      "date": "2024-01-01",
+      "date": "2024",
       "issuer": "UASD",
       "url": "",
       "summary": "64 horas"
     },
     {
       "name": "Python para Investigadores",
-      "date": "2024-01-01",
+      "date": "2024",
       "issuer": "UASD",
       "url": "",
       "summary": "20 horas"
     },
     {
       "name": "Cisco Certified Network Associate (CCNA)",
-      "date": "2009-01-01",
+      "date": "2009",
       "issuer": "Instituto Tecnológico de las Américas (ITLA)",
       "url": ""
     },
     {
       "name": "Master en Python, Django, Flask y Tkinter",
-      "date": "2023-01-01",
+      "date": "2023",
       "issuer": "NEXTU",
       "url": ""
     },
     {
       "name": "Universidad Java - Desde cero a experto",
-      "date": "2023-01-01",
+      "date": "2023",
       "issuer": "NEXTU",
       "url": ""
     },
     {
       "name": "React: De cero a experto (Hooks y MERN)",
-      "date": "2022-01-01",
+      "date": "2022",
       "issuer": "Udemy",
       "url": ""
     },
     {
       "name": "Node: De cero a experto",
-      "date": "2022-01-01",
+      "date": "2022",
       "issuer": "Udemy",
       "url": ""
     },
     {
       "name": "Master en AWS Amazon Web Services",
-      "date": "2021-01-01",
+      "date": "2021",
       "issuer": "Udemy",
       "url": ""
     },
     {
       "name": "Preparación para Auditor Líder ISO/IEC 27001",
-      "date": "2020-01-01",
+      "date": "2020",
       "issuer": "Udemy",
       "url": ""
     }
