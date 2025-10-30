@@ -6,6 +6,7 @@ description: "Análisis del método propuesto por investigadores de Oxford para 
 tags: LLMs alucinaciones entropía-semántica machine-learning NLP
 categories: investigación
 thumbnail: assets/img/hallucination-thumbnail.png
+author: Roberto De León Martínez
 giscus_comments: true
 related_posts: true
 toc:
