@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publicaciones
-description: Papers de alto impacto que he analizado y divulgado en NeuraCaribe
+description: Papers de alto impacto que he analizado y divulgado
 nav: true
 nav_order: 2
 ---
