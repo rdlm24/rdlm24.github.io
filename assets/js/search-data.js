@@ -44,21 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-por-qué-los-llms-alocinan-detectando-confabulaciones-mediante-entropía-semántica",
+        },{id: "post-por-qué-los-llms-alocinan-detectando-confabulaciones-mediante-entropía-semántica",
         
           title: "¿Por qué los LLMs alocinan? Detectando confabulaciones mediante entropía semántica",
         
