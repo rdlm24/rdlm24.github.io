@@ -7,17 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-<!-- {% include bib_search.liquid %}  -->
-
-<!-- <div class="publications"> -->
-
-<!--{% bibliography %} -->
-
-<!-- </div> -->
 
 <div style="text-align: center; padding: 4rem 2rem;">
   <i class="fas fa-flask fa-3x" style="color: #0E6E6E; margin-bottom: 1.5rem;"></i>
