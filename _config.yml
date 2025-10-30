@@ -11,9 +11,9 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Blog de divulgación sobre Inteligencia Artificial y Machine Learning 
   desde República Dominicana. Desenredando la IA, una neurona a la vez.
-footer_text: >  
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.  
+footer_text: >   
+  Desarrollado con <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> usando el tema <a href="https://github.com/alshedivat/al-folio">al-folio</a>. Alojado en <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Ilustraciones generadas con <a href="#">IA</a>.
+  
 keywords: inteligencia artificial, machine learning, IA, divulgación científica, LLM, hallucinations, República Dominicana
 lang: es # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
