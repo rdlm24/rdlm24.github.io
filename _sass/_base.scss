@@ -1431,35 +1431,61 @@ figure.cover {
 
 
 
+ 
 /* Footer personalizado - NeuraCaribe */
 footer.fixed-bottom {
   background-color: #0C2A3E !important; /* Navy académico */
-  border-top: 2px solid #0E6E6E; /* Línea decorativa aguamarina */
+  border-top: 2px solid #0E6E6E !important; /* Línea decorativa aguamarina */
 }
 
-/* Texto del footer */
+/* Texto del footer - FORZAR BLANCO en ambos temas */
 footer.fixed-bottom,
 footer.fixed-bottom p,
-footer.fixed-bottom a {
-  color: #F8F5EE !important; /* Marfil */
+footer.fixed-bottom a,
+footer.fixed-bottom span,
+html[data-theme='light'] footer.fixed-bottom,
+html[data-theme='light'] footer.fixed-bottom p,
+html[data-theme='light'] footer.fixed-bottom a,
+html[data-theme='dark'] footer.fixed-bottom,
+html[data-theme='dark'] footer.fixed-bottom p,
+html[data-theme='dark'] footer.fixed-bottom a,
+html[data-theme='dark'] footer.fixed-bottom span {
+  color: #FFFFFF !important; /* Blanco puro para máximo contraste */
+}
+
+/* Copyright específico */
+footer.fixed-bottom .copyright,
+html[data-theme='dark'] footer.fixed-bottom .copyright {
+  color: #FFFFFF !important;
 }
 
 /* Iconos sociales en el footer */
 footer.fixed-bottom .contact-icons a,
-footer.fixed-bottom .social a {
+footer.fixed-bottom .social a,
+html[data-theme='dark'] footer.fixed-bottom .contact-icons a,
+html[data-theme='dark'] footer.fixed-bottom .social a {
   color: #F8F5EE !important; /* Marfil */
   transition: color 0.3s ease;
 }
 
 /* Hover en iconos del footer */
 footer.fixed-bottom .contact-icons a:hover,
-footer.fixed-bottom .social a:hover {
+footer.fixed-bottom .social a:hover,
+html[data-theme='dark'] footer.fixed-bottom .contact-icons a:hover,
+html[data-theme='dark'] footer.fixed-bottom .social a:hover {
   color: #0E6E6E !important; /* Aguamarina al hover */
 }
 
-/* Enlaces en el footer */
-footer.fixed-bottom a:hover {
+/* Enlaces en el footer - mantener visibles */
+footer.fixed-bottom a:hover,
+html[data-theme='dark'] footer.fixed-bottom a:hover {
   color: #FF6B5A !important; /* Coral para enlaces hover */
+}
+
+/* Asegurar que GitHub Pages link también sea visible */
+footer.fixed-bottom a[href*="github"],
+html[data-theme='dark'] footer.fixed-bottom a[href*="github"] {
+  color: #FFFFFF !important;
 }
 
 
