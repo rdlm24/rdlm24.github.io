@@ -7,14 +7,13 @@ first_name: Roberto
 middle_name:
 last_name: De León Martínez
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+   Para colaboraciones académicas o consultas sobre divulgación científica en IA, contáctame por LinkedIn o correo electrónico.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Blog de divulgación sobre Inteligencia Artificial y Machine Learning 
   desde República Dominicana. Desenredando la IA, una neurona a la vez.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>. 
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: inteligencia artificial, machine learning, IA, divulgación científica, LLM, hallucinations, República Dominicana
 lang: es # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
