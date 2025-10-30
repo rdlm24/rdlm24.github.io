@@ -72,11 +72,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-alucinaciones-llms-entropia-semantica",
+            },{id: "post-por-qué-los-llms-alocinan-detectando-confabulaciones-mediante-entropía-semántica",
         
-          title: "Alucinaciones Llms Entropia Semantica",
+          title: "¿Por qué los LLMs alocinan? Detectando confabulaciones mediante entropía semántica",
         
-        description: "",
+        description: "Análisis del método propuesto por investigadores de Oxford para detectar cuándo los modelos de lenguaje están inventando información, publicado en Nature 2024.",
         section: "Posts",
         handler: () => {
           
