@@ -23,14 +23,6 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
-.social-icons a,
-.contact-icons a,
-footer .contact-icons a {
-  color: #0E6E6E !important; // Aguamarina profundo
-  
-  &:hover {
-    color: #0C2A3E !important; // Navy al hacer hover
-  }
-}
+
 
  
