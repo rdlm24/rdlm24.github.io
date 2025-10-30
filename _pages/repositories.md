@@ -7,41 +7,23 @@ nav: true
 nav_order: 4
 ---
 
+## Repositorios Github
+
+Aquí encontrarás algunos proyectos de desarrollo web que he creado, así como experimentos y herramientas relacionadas con IA y machine learning.
+
 {% if site.data.repositories.github_users %}
 
-## GitHub users
-
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
+  {% include repository/repo_user.liquid username=site.github_username %}
 </div>
+
+{% endif %}
 
 ---
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
+<div style="margin-top: 2rem;">
+  <p style="color: #0E6E6E;">
+    <i class="fab fa-github"></i> Visita mi perfil completo en 
+    <a href="https://github.com/{{ site.github_username }}" target="_blank" style="font-weight: bold;">GitHub</a>
+  </p>
 </div>
-{% endif %}
