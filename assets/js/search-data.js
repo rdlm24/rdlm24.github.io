@@ -17,15 +17,15 @@ ninja.data = [{
             window.location.href = "/blog/";
           },
         },{id: "nav-publicaciones",
-          title: "publicaciones",
+          title: "Publicaciones",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-proyectos",
-          title: "proyectos",
-          description: "",
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
