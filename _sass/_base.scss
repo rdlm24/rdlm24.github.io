@@ -1427,3 +1427,44 @@ figure.cover {
   height: 40px;
   margin-right: 10px;
 }
+
+
+
+
+/* Footer personalizado - NeuraCaribe */
+footer.fixed-bottom {
+  background-color: #0C2A3E !important; /* Navy académico */
+  border-top: 2px solid #0E6E6E; /* Línea decorativa aguamarina */
+}
+
+/* Texto del footer */
+footer.fixed-bottom,
+footer.fixed-bottom p,
+footer.fixed-bottom a {
+  color: #F8F5EE !important; /* Marfil */
+}
+
+/* Iconos sociales en el footer */
+footer.fixed-bottom .contact-icons a,
+footer.fixed-bottom .social a {
+  color: #F8F5EE !important; /* Marfil */
+  transition: color 0.3s ease;
+}
+
+/* Hover en iconos del footer */
+footer.fixed-bottom .contact-icons a:hover,
+footer.fixed-bottom .social a:hover {
+  color: #0E6E6E !important; /* Aguamarina al hover */
+}
+
+/* Enlaces en el footer */
+footer.fixed-bottom a:hover {
+  color: #FF6B5A !important; /* Coral para enlaces hover */
+}
+
+
+
+
+
+
+
