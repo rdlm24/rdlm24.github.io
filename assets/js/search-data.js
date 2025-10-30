@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publicaciones",
           title: "publicaciones",
-          description: "",
+          description: "Papers de alto impacto que he analizado y divulgado en NeuraCaribe",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
