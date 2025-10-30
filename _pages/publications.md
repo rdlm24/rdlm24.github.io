@@ -11,13 +11,13 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-#{% include bib_search.liquid %}
+<!-- {% include bib_search.liquid %}  -->
 
-#<div class="publications">
+<!-- <div class="publications"> -->
 
-#{% bibliography %}
+<!--{% bibliography %} -->
 
-#</div>
+<!-- </div> -->
 
 <div style="text-align: center; padding: 4rem 2rem;">
   <i class="fas fa-flask fa-3x" style="color: #0E6E6E; margin-bottom: 1.5rem;"></i>
