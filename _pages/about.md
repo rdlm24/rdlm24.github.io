@@ -67,3 +67,7 @@ La inteligencia artificial está transformando nuestra sociedad a un ritmo acele
 Mi compromiso es mantener un equilibrio entre accesibilidad y precisión técnica. No es necesario tener formación previa en ciencias de la computación o matemáticas avanzadas, pero tampoco encontrarás simplificaciones que distorsionen la ciencia.
 
 **NeuraCaribe** es un espacio para la curiosidad informada, el pensamiento crítico y el aprendizaje continuo sobre una de las disciplinas más influyentes de nuestro tiempo.
+
+### Conoce más
+
+{% include video.liquid path="https://youtu.be/brUTDhFgWBg" class="img-fluid rounded z-depth-1" %}
