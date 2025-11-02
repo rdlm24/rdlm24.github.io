@@ -70,4 +70,24 @@ Mi compromiso es mantener un equilibrio entre accesibilidad y precisión técnic
 
 ### Conoce más
 
-{% include video.liquid path="https://youtu.be/brUTDhFgWBg" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center mt-4 mb-4">
+    <div class="col-md-10">
+        <div class="card">
+            <div class="card-body p-0">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe 
+                        class="embed-responsive-item" 
+                        src="https://www.youtube.com/embed/brUTDhFgWBg" 
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Presentación de NeuraCaribe</h5>
+                <p class="card-text">Conoce más sobre el proyecto de divulgación científica en IA.</p>
+            </div>
+        </div>
+    </div>
+</div>
